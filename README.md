@@ -5,7 +5,7 @@ Bienvenida/o a mi portafolio personal. Aquí muestro los proyectos que desarroll
 
 ## ✨ Sobre mí
 
-Soy desarrolladora de software en formación, enfocada en aprender a construir APIs, gestionar bases de datos y aplicar buenas prácticas en el desarrollo de software. Utilicé algunas tecnologías frontend para complementar la presentación de mis proyectos.
+Soy desarrolladora de software en formación, enfocada en aprender a construir APIs, gestionar bases de datos y aplicar buenas prácticas en el desarrollo de software. Utilicé la biblioteca Tkinter de Python para crear interfaces gráficas y algunas tecnologías frontend para complementar la presentación de mis proyectos.
 
 ## 🧰 Tecnologías que utilizo
 
