@@ -5,7 +5,7 @@ Bienvenida/o a mi portafolio personal. Aquí muestro los proyectos que desarroll
 
 ## ✨ Sobre mí
 
-Soy desarrolladora de software en formación, enfocada en aprender a construir APIs, gestionar bases de datos y aplicar buenas prácticas en el desarrollo de software. También exploro tecnologías frontend para complementar la presentación de mis proyectos.
+Soy desarrolladora de software en formación, enfocada en aprender a construir APIs, gestionar bases de datos y aplicar buenas prácticas en el desarrollo de software. Utilicé algunas tecnologías frontend para complementar la presentación de mis proyectos.
 
 ## 🧰 Tecnologías que utilizo
 
@@ -34,7 +34,7 @@ Soy desarrolladora de software en formación, enfocada en aprender a construir A
 - **Sistema de ventas para Vinoteca  
   Aplicación de escritorio con gestión de ventas, carga de productos y emisión de ticket. 
 
-  - **Sistema de ventas para Librería  
+- **Sistema de ventas para Librería  
   Aplicación de escritorio con gestión de ventas, carga de productos y emisión de ticket. 
 
 - **Diccionario Web**  
