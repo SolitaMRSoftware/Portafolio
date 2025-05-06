@@ -1,0 +1,7 @@
+
+# Ignorar archivos innecesarios
+.vscode/
+*.log
+*.pyc
+
+

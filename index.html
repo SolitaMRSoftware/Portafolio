@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio</title>
+  <meta name="description" content="Mi Portfolio">
+
+  <!--prefetch-->
+  <link rel="prefetch" href="proyectos.html" as="document">
+
+  <!--preload-->
+  <link rel="preload" href="css/normalize.css" as="style">
+  <link rel="stylesheet" href="css/normalize.css"><!--enlazo normalize-->
+
+  <link rel="preload" href="css/estilos.css" as="style">
+  <link rel="stylesheet" href="css/estilos.css"> <!--enlazo la hoja de estilos-->
+
+  <!--FUENTES-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@500;600;700&family=Poppins:wght@100&display=swap&family=Bungee&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- ===== BOX ICONS ===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+  <section class="home" id="inicio">
+    <div class="contenedor">
+      <div class="barra">
+        <!--definimos nuestra barra. Nuestro PRIMER bloque-->
+        <a href="index.html">
+          <img src="./img/logo.png" alt="logo" class="logo">
+        </a>
+        <nav class="navegacion-principal" >
+          <a href="#inicio">INICIO</a>
+          <a href="#sobremi">SOBRE MI</a>
+          <a href="#habilidades">HABILIDADES</a>
+          <a href="#proyectos">PROYECTOS</a>
+          <a href="#contacto">CONTACTO</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="home__container">
+      <div class="home__title">
+        <h1>Hola, soy Solita
+          <span class="caracter">SOFTWARE</span>
+          <span class="profesion">DEVELOPER</span><br>
+        </h1>
+        <div class="about__social">
+          <a href="img/tu-cv.pdf" class="card__boton-cv">Curriculum</a>
+        </div>
+      </div>
+
+      <div>
+        <img src="img/perfil.png" alt="" class="home__img">
+        <img src="img/perfil.png" alt="" class="home__img-dos">
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="sobremi">
+    <h2 class="section-title">Algo sobre mí</h2>
+    <div class="about-me">
+      <p class="about__text">
+        <span >Soy Soledad, de Argentina.</span>
+        <span class="highlight__uno">Apasionada</span> por cada <span class="highlight__uno">desafío</span> que enfrento. Te invito a explorar</span> mis <span class="highlight__dos">proyectos</span>, algunos personales y otros <span class="highlight__uno">colaborativos</span>. Conectá conmigo en LinkedIn o GitHub
+      </p>
+
+      <div class="about__social">
+        <a href="https://www.linkedin.com/in/soledadmarin-dev/" class="about__social-icon">
+          <i class='bx bxl-linkedin' undefined></i>
+        </a>
+        <a href="https://github.com/SolitaMRSoftware" class="about__social-icon">
+          <i class='bx bxl-github'></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="habilidades">
+    <div class="skills__container">
+      <div class="corte__uno">
+        <h2 class="section-title">Habilidades</h2>
+      </div>
+      <div>
+
+        <h3 class="skills__subtitle">Hard Skills</h3>
+        <div class="skills__icon">
+          <span class="skills__name"><img src="/img/iconos/1.png" alt=""></span>
+          <!-- <span class="skills__name"><img src="/img/iconos/2.png" alt=""></span> -->
+          <span class="skills__name"><img src="./img/iconos/3.png" alt=""></span>
+          <!-- <span class="skills__name"><img src="./img/iconos/4.png" alt=""></span>
+          <span class="skills__name"><img src="./img/iconos/5.png" alt=""></span> -->
+          <span class="skills__name"><img src="./img/iconos/FastAPI.png" alt=""></span>
+          <span class="skills__name"><img src="./img/iconos/6.png" alt=""></span>
+        </div>
+
+        <h3 class="skills__subtitle">Soft Skills</h3>
+        <div class="skills__icon">
+          <span class="skills__name"><img src="./img/iconos/7.png" alt=""></span>
+          <span class="skills__name"><img src="/img/iconos/8.png" alt=""></span>
+          <span class="skills__name"><img src="./img/iconos/9.png" alt=""></span>
+          <span class="skills__name"><img src="./img/iconos/10.png" alt=""></span>
+          <span class="skills__name"><img src="./img/iconos/11.png" alt=""></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--===== PORTAFOLIO =====-->
+  <section class="portfolio" id="proyectos">
+    <h2 class="section-title outline">Mis Proyectos</h2>
+    <div class="portfolio__container">
+      <div class="card">
+        <div class="card__content-uno project__img-uno">
+          <!--BOTON-->
+          <div class="boton-modal">
+            <label for="btn-modal">ver proyecto</label>
+          </div>
+          <!--fin de boton-->
+        </div>
+
+        <!--====MODAL UNO====-->
+        <input type="checkbox" id="btn-modal">
+        <div class="container-modal">
+          <div class="content-modal">
+            <p class="portfolio__description">Sistema para librería</p>
+            <div class="video">
+              <video controls>
+                <source src="video/mochila.mp4" type="video/mp4">
+                <source src="video/mochila.webm" type="video/webm">
+                <source src="video/mochila.ogv" type="video/ogv">
+              </video>
+            </div>
+            <div class="btn-cerrar">
+              <label for="btn-modal">Cerrar</label>
+            </div>
+          </div>
+          <label for="btn-modal" class="cerrar-modal"></label>
+        </div>
+        <!--fin de ventana modal uno-->
+
+        <div class="card__content-uno project__img-dos">
+          <!--BOTON-->
+          <div class="boton-modal-dos">
+            <label for="btn-modal-dos">ver proyecto</label>
+          </div>
+          <!--fin de boton-->
+        </div>
+
+        <!--====MODAL DOS====-->
+        <input type="checkbox" id="btn-modal-dos">
+        <div class="container-modal-dos">
+          <div class="content-modal-dos">
+            <p class="portfolio__description">Sistema para Vinoteca</p>
+            <div class="video">
+              <video controls>
+                <source src="video/wine.mp4" type="video/mp4">
+                <source src="video/wine.webm" type="video/webm">
+                <source src="video/wine.ogv" type="video/ogv">
+              </video>
+            </div>
+            <div class="btn-cerrar-dos">
+              <label for="btn-modal-dos">Cerrar</label>
+            </div>
+          </div>
+          <label for="btn-modal-dos" class="cerrar-modal-dos"></label>
+        </div>
+        <!--fin de ventana modal-->
+
+        <div class="card__content-uno project__img-tres">
+          </p>
+          <div class="boton">
+            <a href="https://elclimadelmundo.netlify.app/" class="card__boton">ver proyecto</a>
+           
+          </div>
+        </div>
+
+        <div class="card__content-uno project__img-cuatro">
+          <div class="boton">
+            <a href="https://midiccionario.netlify.app" class="card__boton">ver proyecto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--===== CONTACTO--->
+  <section class="contact section" id="contacto">
+    <div class="contact__container">
+      <div>
+        <h2 class="section-title">Contacto</h2>
+        <p class="contact__subtitle ">
+          <span>¿Trabajamos juntos?</span><br>
+          Si querés ponerte en contacto conmigo, que hablemos sobre un proyecto o simplemente pasar a saludar, enviame un mensaje o un correo electrónico
+          <span class="contact__text"><br>
+            <i class='bx bx-envelope'>
+              msoledadmarich@gmail.com</i>
+          </span>
+        </p>
+      </div>
+
+      <form name="contact" method="POST" class="contact__form" netlify>
+        <div class="contact__inputs">
+          <input type="text" name="firstname" placeholder="Nombre" id="nombre" class="contact__input" required>
+          <input type="email" name="email" placeholder="E-mail" id="email" class="contact__input" required>
+        </div>
+
+        <textarea name="message" placeholder="Escribime ..." id="" cols="0" rows="12" class="contact__input"
+          required></textarea>
+
+        <div>
+          <div data-netlify-recaptcha="true"></div>
+          <input type="submit" value="Enviar" class="contact__button">
+        </div>
+
+      </form>
+    </div>
+  </section>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer section">
+    <div class="footer__container">
+      <p class="footer__copyright">Hecho por Solita con
+        <i class='bx bxs-heart bx-border-circle' style="color: #ff0099;"></i>2024
+      </p>
+    </div>
+  </footer>
+
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
